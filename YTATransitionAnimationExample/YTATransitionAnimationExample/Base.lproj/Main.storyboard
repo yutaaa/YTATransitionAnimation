@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="dBx-S7-0MG">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Example-->
+        <scene sceneID="r2F-oc-0Ha">
+            <objects>
+                <tableViewController id="ten-cL-eDZ" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" id="BRE-7v-sLj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection id="PDH-xB-c6c">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="uAA-zz-Fld">
+                                        <rect key="frame" x="0.0" y="64" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uAA-zz-Fld" id="DJl-gZ-4OM">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Slide Transition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yxR-a1-IMb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="287" height="59"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="yxR-a1-IMb" firstAttribute="leading" secondItem="DJl-gZ-4OM" secondAttribute="leading" id="Jfn-fR-del"/>
+                                                <constraint firstAttribute="trailing" secondItem="yxR-a1-IMb" secondAttribute="trailing" id="Lau-H8-4ac"/>
+                                                <constraint firstAttribute="bottom" secondItem="yxR-a1-IMb" secondAttribute="bottom" id="cKt-sD-OuM"/>
+                                                <constraint firstItem="yxR-a1-IMb" firstAttribute="top" secondItem="DJl-gZ-4OM" secondAttribute="top" id="pkV-4u-w04"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BYZ-38-t0r" kind="push" id="3Kq-Qi-57F"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="IRc-KD-etT">
+                                        <rect key="frame" x="0.0" y="124" width="320" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="IRc-KD-etT" id="dVg-xj-XDw">
+                                            <rect key="frame" x="0.0" y="0.0" width="287" height="59"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zoom Transition" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jcd-3g-4CB">
+                                                    <rect key="frame" x="0.0" y="0.0" width="287" height="59"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="Jcd-3g-4CB" secondAttribute="trailing" id="4fC-9p-c86"/>
+                                                <constraint firstAttribute="bottom" secondItem="Jcd-3g-4CB" secondAttribute="bottom" id="AFj-6G-gTI"/>
+                                                <constraint firstItem="Jcd-3g-4CB" firstAttribute="top" secondItem="dVg-xj-XDw" secondAttribute="top" id="q5Z-ul-8VY"/>
+                                                <constraint firstItem="Jcd-3g-4CB" firstAttribute="leading" secondItem="dVg-xj-XDw" secondAttribute="leading" id="uWQ-Lv-2Ah"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="cSP-yM-igK" kind="push" id="bkx-L5-zg2"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="ten-cL-eDZ" id="gFd-mg-SVC"/>
+                            <outlet property="delegate" destination="ten-cL-eDZ" id="5hV-qq-yXt"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Example" id="B62-0j-62O"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8hS-ao-h9j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1599" y="610"/>
+        </scene>
+        <!--Zoom Animation-->
+        <scene sceneID="fmH-Wy-HSN">
+            <objects>
+                <viewController id="cSP-yM-igK" customClass="ZoomTransitionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QZ9-9R-omf"/>
+                        <viewControllerLayoutGuide type="bottom" id="YFH-R5-ero"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="OKP-Rj-VIJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xli-kN-ylS">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="5bc-DY-yuP"/>
+                                    <constraint firstAttribute="width" constant="200" id="dpH-j2-j5D"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="Y9e-lG-oBo" kind="push" identifier="toDetailViewController" id="IQa-hx-7aU"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="squirrel" translatesAutoresizingMaskIntoConstraints="NO" id="2yl-AM-e4t">
+                                <rect key="frame" x="60" y="184" width="200" height="200"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Xli-kN-ylS" firstAttribute="centerY" secondItem="OKP-Rj-VIJ" secondAttribute="centerY" id="9gI-Pf-AHR"/>
+                            <constraint firstItem="Xli-kN-ylS" firstAttribute="centerX" secondItem="OKP-Rj-VIJ" secondAttribute="centerX" id="KdV-UL-qra"/>
+                            <constraint firstItem="2yl-AM-e4t" firstAttribute="width" secondItem="Xli-kN-ylS" secondAttribute="width" id="LvA-Rt-mCj"/>
+                            <constraint firstItem="2yl-AM-e4t" firstAttribute="centerY" secondItem="Xli-kN-ylS" secondAttribute="centerY" id="N4J-mW-4FL"/>
+                            <constraint firstItem="2yl-AM-e4t" firstAttribute="height" secondItem="Xli-kN-ylS" secondAttribute="height" id="Vrd-5T-kJV"/>
+                            <constraint firstItem="2yl-AM-e4t" firstAttribute="centerX" secondItem="Xli-kN-ylS" secondAttribute="centerX" id="udb-Uh-CPd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Zoom Animation" id="2pW-CX-o9d"/>
+                    <connections>
+                        <outlet property="imageView" destination="2yl-AM-e4t" id="OG3-4x-Q13"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lc2-Re-Fqv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2032" y="745"/>
+        </scene>
+        <!--Detail-->
+        <scene sceneID="6zs-VA-2cb">
+            <objects>
+                <viewController id="Y9e-lG-oBo" customClass="DetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3n0-UK-q85"/>
+                        <viewControllerLayoutGuide type="bottom" id="3l9-xT-jLc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="d0T-qm-Mzj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Wpm-RJ-LAn">
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wpm-RJ-LAn" firstAttribute="leading" secondItem="d0T-qm-Mzj" secondAttribute="leading" id="Bbn-eY-nGi"/>
+                            <constraint firstAttribute="trailing" secondItem="Wpm-RJ-LAn" secondAttribute="trailing" id="XhZ-zn-Rp5"/>
+                            <constraint firstItem="Wpm-RJ-LAn" firstAttribute="top" secondItem="3n0-UK-q85" secondAttribute="bottom" id="f28-mA-8kH"/>
+                            <constraint firstItem="3l9-xT-jLc" firstAttribute="top" secondItem="Wpm-RJ-LAn" secondAttribute="bottom" id="maK-rp-c0Z"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Detail" id="TB8-yT-Glh"/>
+                    <connections>
+                        <outlet property="imageView" destination="Wpm-RJ-LAn" id="rpg-SC-svH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VFp-8f-ffi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2389" y="743"/>
+        </scene>
+        <!--Slide Animation-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SlideTransitionViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jt8-O3-uUI"/>
+                        <viewControllerLayoutGuide type="bottom" id="ml8-ST-M6z"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yk9-AE-uuH">
+                                <rect key="frame" x="10" y="184" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="L0u-3r-7LE"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="45i-mV-sUf" kind="push" identifier="toDetailViewController" id="MQm-aU-4rc"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="squirrel" translatesAutoresizingMaskIntoConstraints="NO" id="IhM-DN-I6F">
+                                <rect key="frame" x="10" y="184" width="300" height="200"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squirrel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tFa-QM-v53">
+                                <rect key="frame" x="110" y="434" width="100" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="2iX-LU-hAi"/>
+                                    <constraint firstAttribute="width" constant="100" id="bc5-L9-SsY"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tFa-QM-v53" firstAttribute="top" secondItem="IhM-DN-I6F" secondAttribute="bottom" constant="50" id="3Jb-Or-i52"/>
+                            <constraint firstItem="IhM-DN-I6F" firstAttribute="centerX" secondItem="yk9-AE-uuH" secondAttribute="centerX" id="COr-CI-6QJ"/>
+                            <constraint firstItem="yk9-AE-uuH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="JRn-t4-13m"/>
+                            <constraint firstAttribute="trailing" secondItem="yk9-AE-uuH" secondAttribute="trailing" constant="10" id="N4N-WX-Sij"/>
+                            <constraint firstItem="yk9-AE-uuH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="10" id="YV9-TD-ULB"/>
+                            <constraint firstItem="IhM-DN-I6F" firstAttribute="centerY" secondItem="yk9-AE-uuH" secondAttribute="centerY" id="cHr-Ug-FQb"/>
+                            <constraint firstItem="IhM-DN-I6F" firstAttribute="height" secondItem="yk9-AE-uuH" secondAttribute="height" id="gG1-8D-w0i"/>
+                            <constraint firstItem="tFa-QM-v53" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gXs-LU-KUS"/>
+                            <constraint firstItem="IhM-DN-I6F" firstAttribute="width" secondItem="yk9-AE-uuH" secondAttribute="width" id="xYv-I7-04S"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Slide Animation" id="dwp-7p-dhU"/>
+                    <connections>
+                        <outlet property="imageView" destination="IhM-DN-I6F" id="aPb-Cu-pHl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2034" y="107"/>
+        </scene>
+        <!--Detail-->
+        <scene sceneID="0wp-AJ-Qvv">
+            <objects>
+                <viewController id="45i-mV-sUf" customClass="DetailViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pv8-Rk-ED3"/>
+                        <viewControllerLayoutGuide type="bottom" id="4GC-PN-RJf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wYa-gP-tyS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="M8p-nq-nBW">
+                                <rect key="frame" x="10" y="84" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="mMb-aA-K3h"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BML-69-eT1">
+                                <rect key="frame" x="10" y="344" width="300" height="214"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="214" id="ZAa-7V-00z"/>
+                                </constraints>
+                                <string key="text">Squirrels are members of the family Sciuridae, a family that includes small or medium-size rodents. The squirrel family includes tree squirrels, ground squirrels, chipmunks, marmots (including woodchucks), flying squirrels, and prairie dogs amongst other rodents. Squirrels are indigenous to the Americas, Eurasia, and Africa, and were introduced by humans to Australia.[1] The earliest known squirrels date from the Eocene period and are most closely related to the mountain beaver and to the dormouse among other living rodent families.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Squirrel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xvl-EI-m7a">
+                                <rect key="frame" x="10" y="304" width="300" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="a40-CL-wGH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="BML-69-eT1" secondAttribute="trailing" constant="10" id="82k-xZ-hjY"/>
+                            <constraint firstAttribute="trailing" secondItem="Xvl-EI-m7a" secondAttribute="trailing" constant="10" id="KuR-s4-P3h"/>
+                            <constraint firstItem="Xvl-EI-m7a" firstAttribute="leading" secondItem="wYa-gP-tyS" secondAttribute="leading" constant="10" id="MU8-5a-qeZ"/>
+                            <constraint firstItem="BML-69-eT1" firstAttribute="top" secondItem="Xvl-EI-m7a" secondAttribute="bottom" constant="10" id="OvM-Bk-MEn"/>
+                            <constraint firstItem="M8p-nq-nBW" firstAttribute="leading" secondItem="wYa-gP-tyS" secondAttribute="leading" constant="10" id="QnT-b5-OFC"/>
+                            <constraint firstItem="M8p-nq-nBW" firstAttribute="top" secondItem="pv8-Rk-ED3" secondAttribute="bottom" constant="20" id="lYh-f5-vyS"/>
+                            <constraint firstAttribute="trailing" secondItem="M8p-nq-nBW" secondAttribute="trailing" constant="10" id="xnG-Qu-fdr"/>
+                            <constraint firstItem="Xvl-EI-m7a" firstAttribute="top" secondItem="M8p-nq-nBW" secondAttribute="bottom" constant="20" id="yax-h7-Y4R"/>
+                            <constraint firstItem="BML-69-eT1" firstAttribute="leading" secondItem="wYa-gP-tyS" secondAttribute="leading" constant="10" id="zlB-yY-imf"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Detail" id="pLW-lL-KIr"/>
+                    <connections>
+                        <outlet property="imageView" destination="M8p-nq-nBW" id="VFx-4I-Bgk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tdH-LV-cT8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2389" y="107"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Rls-60-p99">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dBx-S7-0MG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HmX-2N-fNF">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="ten-cL-eDZ" kind="relationship" relationship="rootViewController" id="qeA-vh-H7b"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2vk-no-RLg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1203" y="610"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="squirrel" width="1024" height="682"/>
+    </resources>
+</document>
